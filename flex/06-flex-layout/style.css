@@ -25,3 +25,15 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* Remove blue color and line from links */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Remove bullet points from unordered list */
+ul {
+  list-style: none;
+}
