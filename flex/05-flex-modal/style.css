@@ -20,6 +20,20 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* What I added: */
+  display: flex;
+  padding: 12px;
+  gap: 12px;
+
+  
+}
+
+/* Added top rules */
+.top {
+  display: flex;
+  justify-content: space-between;
+  
+
 }
 
 .icon {
@@ -63,4 +77,15 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Add header bold + bigger */
+.header{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.middle{
+  margin-bottom: 12px;
 }
